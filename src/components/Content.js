@@ -14,7 +14,7 @@ class Content extends Component {
 
                 <div class="pic">
                     <picture>
-                        <img alt="" src="../../public/images/img1.jpg"></img>
+                        {/* <img alt="" src="../../public/images/img1.jpg"></img> */}
                     </picture>
                 </div>
 
@@ -25,23 +25,23 @@ class Content extends Component {
                 <div class="gallery">
                     <h2>Galerie</h2>
                     <div class="img-container">
-                        <img alt="" src="./images/img9.jpg"></img>
-                        <img alt="" src="./images/img2.jpg"></img>
+                        {/* <img alt="" src="./images/img9.jpg"></img>
+                        <img alt="" src="./images/img2.jpg"></img> */}
                         {/* <img src="./images/img3.jpg"></img> */}
                     </div>
                     <div class="img-container">
-                        <img alt="" src="./images/img4.jpg"></img>
-                        <img alt="" src="./images/img5.jpg"></img>
+                        {/* <img alt="" src="./images/img4.jpg"></img>
+                        <img alt="" src="./images/img5.jpg"></img> */}
                         {/* <img src="./images/img6.jpg"></img> */}
                     </div>
                     <div class="img-container">
-                        <img alt="" src="./images/img7.jpg"></img>
-                        <img alt="" src="./images/img8.jpg"></img>
+                        {/* <img alt="" src="./images/img7.jpg"></img>
+                        <img alt="" src="./images/img8.jpg"></img> */}
                         {/* <img src="./images/img9.jpg"></img> */}
                     </div>
                     <div class="img-container">
-                        <img alt="" src="./images/img3.jpg"></img>
-                        <img alt="" src="./images/img6.jpg"></img>
+                        {/* <img alt="" src="./images/img3.jpg"></img>
+                        <img alt="" src="./images/img6.jpg"></img> */}
                     </div>
                 </div>
 
