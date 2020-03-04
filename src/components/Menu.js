@@ -1,16 +1,13 @@
-import React, {Component, useRef} from 'react';
+import React, {Component} from 'react';
 import {withRouter} from 'react-router-dom';
 import '../styles/Menu.scss';
 
 class Menu extends Component {
-    constructor(props) {
-        super(props);
-    }
     
     scrollToTop(scrollDuration) {
         var scrollStep = -window.scrollY / (scrollDuration / 15),
             scrollInterval = setInterval(function(){
-            if ( window.scrollY != 0 ) {
+            if ( window.scrollY !== 0 ) {
                 window.scrollBy( 0, scrollStep );
             }
             else clearInterval(scrollInterval); 

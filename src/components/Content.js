@@ -1,11 +1,9 @@
-import React, {Component, useRef} from 'react';
+import React, {Component} from 'react';
 import {withRouter} from 'react-router-dom';
 import '../styles/Content.scss';
 
 class Content extends Component {
-    constructor(props) {
-        super(props);
-    }
+    
     
     render() {
         return (
@@ -16,7 +14,7 @@ class Content extends Component {
 
                 <div class="pic">
                     <picture>
-                        <img alt="Salon de coiffure Shang Long image Ken" src="./images/img1.jpg"></img>
+                        <img alt="" src="../../public/images/img1.jpg"></img>
                     </picture>
                 </div>
 
@@ -27,23 +25,23 @@ class Content extends Component {
                 <div class="gallery">
                     <h2>Galerie</h2>
                     <div class="img-container">
-                        <img alt="Salon de coiffure Shang Long image 1" src="./images/img9.jpg"></img>
-                        <img alt="Salon de coiffure Shang Long image 2" src="./images/img2.jpg"></img>
+                        <img alt="" src="./images/img9.jpg"></img>
+                        <img alt="" src="./images/img2.jpg"></img>
                         {/* <img src="./images/img3.jpg"></img> */}
                     </div>
                     <div class="img-container">
-                        <img alt="Salon de coiffure Shang Long image 3" src="./images/img4.jpg"></img>
-                        <img alt="Salon de coiffure Shang Long image 4" src="./images/img5.jpg"></img>
+                        <img alt="" src="./images/img4.jpg"></img>
+                        <img alt="" src="./images/img5.jpg"></img>
                         {/* <img src="./images/img6.jpg"></img> */}
                     </div>
                     <div class="img-container">
-                        <img alt="Salon de coiffure Shang Long image 5" src="./images/img7.jpg"></img>
-                        <img alt="Salon de coiffure Shang Long image 6" src="./images/img8.jpg"></img>
+                        <img alt="" src="./images/img7.jpg"></img>
+                        <img alt="" src="./images/img8.jpg"></img>
                         {/* <img src="./images/img9.jpg"></img> */}
                     </div>
                     <div class="img-container">
-                        <img alt="Salon de coiffure Shang Long image 7" src="./images/img3.jpg"></img>
-                        <img alt="Salon de coiffure Shang Long image 8" src="./images/img6.jpg"></img>
+                        <img alt="" src="./images/img3.jpg"></img>
+                        <img alt="" src="./images/img6.jpg"></img>
                     </div>
                 </div>
 
@@ -105,7 +103,7 @@ class Content extends Component {
                     <h2>Itinéraire</h2>
                     <div class="mapouter">
                         <div class="gmap_canvas">
-                            <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=1071%20Rue%20Saint-Urbain%2C%20Montr%C3%A9al%2C%20QC%20H2Z%209Y9&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                            <iframe title="googlemap" width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=1071%20Rue%20Saint-Urbain%2C%20Montr%C3%A9al%2C%20QC%20H2Z%209Y9&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                             {/* <a href="https://ytify.com">ytify.com</a> */}
                         </div>
                     </div>
